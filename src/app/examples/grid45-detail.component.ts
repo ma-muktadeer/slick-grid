@@ -36,6 +36,8 @@ export class Grid45DetailComponent implements OnDestroy, OnInit {
   showGrid = false;
 
   ngOnInit(): void {
+    console.log('model', this.model);
+
     this.innerGridId = `innergrid-${this.model.id}`;
     this.innerGridClass = `row-detail-${this.model.id}`;
     // define the grid options & columns and then create the grid itself
