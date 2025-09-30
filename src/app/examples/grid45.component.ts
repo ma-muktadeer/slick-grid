@@ -126,16 +126,16 @@ export class Grid45Component implements OnDestroy, OnInit {
         // ViewModel Template to load when row detail data is ready
         viewComponent: Grid45DetailComponent,
       },
-      presets: {
-        columns: [
-          {
-            columnId: 'companyId',
-          },
-          {
-            columnId: 'companyName',
-          },
-        ]
-      }
+      // presets: {
+      //   columns: [
+      //     {
+      //       columnId: 'companyId',
+      //     },
+      //     {
+      //       columnId: 'companyName',
+      //     },
+      //   ]
+      // }
     };
   }
 
