@@ -111,7 +111,7 @@ export class Grid45Component implements OnDestroy, OnInit {
       autoHeight: false,
       enableFiltering: true,
       darkMode: this._darkMode,
-      enableRowDetailView: false,
+      enableRowDetailView: true,
       rowHeight: 33,
       rowDetailView: {
         process: (item: any) => this.simulateServerAsyncCall(item),
